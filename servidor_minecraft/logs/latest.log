@@ -1,82 +1,37 @@
-[21:39:50] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:39:51] [ServerMain/INFO]: Loaded 7 recipes
-[21:39:52] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[21:39:52] [Server thread/INFO]: Loading properties
-[21:39:52] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[21:39:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:39:52] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:39:52] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[19:06:56] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:06:58] [ServerMain/INFO]: Loaded 7 recipes
+[19:06:59] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[19:06:59] [Server thread/INFO]: Loading properties
+[19:06:59] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[19:07:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:07:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:07:00] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[21:39:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[21:39:53] [Server thread/INFO]: Default game type: SURVIVAL
-[21:39:53] [Server thread/INFO]: Generating keypair
-[21:39:53] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:39:53] [Server thread/INFO]: Using epoll channel type
-[21:39:53] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[21:39:53] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[21:39:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:39:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:39:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:39:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:39:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:39:53] [Server thread/INFO]: Preparing level "world"
-[21:39:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:39:54] [Server thread/INFO]: Time elapsed: 356 ms
-[21:39:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:39:54] [Server thread/INFO]: Time elapsed: 87 ms
-[21:39:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:39:54] [Server thread/INFO]: Time elapsed: 92 ms
-[21:39:55] [Server thread/INFO]: Running delayed init tasks
-[21:39:55] [Server thread/INFO]: Done (2.927s)! For help, type "help"
-[21:39:55] [Server thread/INFO]: Timings Reset
-[21:39:57] [User Authenticator #0/INFO]: UUID of player kieff568 is 76a1f384-4dfc-38c5-b324-38480c4f7d72
-[21:39:57] [Server thread/INFO]: kieff568 joined the game
-[21:39:57] [Server thread/INFO]: kieff568[/127.159.79.205:44939] logged in with entity id 27 at ([world]-119.41665945848167, -6.878703159460811, 6.345945364995632)
-[21:40:15] [User Authenticator #0/INFO]: UUID of player Bugiman256 is f5de36f7-cccc-31dc-9608-418568586ae9
-[21:40:15] [Server thread/INFO]: Bugiman256 joined the game
-[21:40:15] [Server thread/INFO]: Bugiman256[/127.210.134.193:52307] logged in with entity id 445 at ([world]58.30000001192093, 94.0, 464.3584917633404)
-[21:40:22] [User Authenticator #0/INFO]: UUID of player AWEONAENTY is 0a1da4aa-aeeb-38e6-8f39-ac87adba8c3e
-[21:40:22] [Server thread/INFO]: AWEONAENTY joined the game
-[21:40:22] [Server thread/INFO]: AWEONAENTY[/127.91.186.248:52021] logged in with entity id 727 at ([world]-902.5777478588134, 68.0, -1442.2764670866234)
-[21:40:39] [User Authenticator #0/INFO]: UUID of player ChrizFool is 21ba0dbf-33b8-3b4b-9c3e-cce7449f3c06
-[21:40:39] [Server thread/INFO]: ChrizFool joined the game
-[21:40:39] [Server thread/INFO]: ChrizFool[/127.64.50.195:49151] logged in with entity id 875 at ([world]356.30000001192093, 80.0, 361.27200934275766)
-[21:41:42] [Server thread/INFO]: kieff568 has made the advancement [Not Today, Thank You]
-[21:41:43] [Server thread/INFO]: AWEONAENTY lost connection: Disconnected
-[21:41:43] [Server thread/INFO]: AWEONAENTY left the game
-[21:42:41] [Server thread/INFO]: Villager EntityVillager['Fletcher'/944, uuid='8a7225e4-2bce-4507-addf-43ffb6fb3132', l='ServerLevel[world]', x=394.30, y=64.00, z=293.35, cpos=[24, 18], tl=8265, v=true] died, message: 'Fletcher was slain by Husk'
-[21:46:01] [Server thread/INFO]: ChrizFool lost connection: Disconnected
-[21:46:01] [Server thread/INFO]: ChrizFool left the game
-[21:46:24] [Server thread/INFO]: Bugiman256 has made the advancement [Isn't It Iron Pick]
-[21:57:08] [Server thread/INFO]: Bugiman256 has made the advancement [Diamonds!]
-[21:58:23] [Server thread/INFO]: kieff568 lost connection: Disconnected
-[21:58:24] [Server thread/INFO]: kieff568 left the game
-[21:58:50] [Server thread/INFO]: Bugiman256 lost connection: Disconnected
-[21:58:51] [Server thread/INFO]: Bugiman256 left the game
-[22:00:24] [Server thread/INFO]: Stopping the server
-[22:00:24] [Server thread/INFO]: Stopping server
-[22:00:24] [Server thread/INFO]: Saving players
-[22:00:24] [Server thread/INFO]: Saving worlds
-[22:00:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:00:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[22:00:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[22:00:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[22:00:25] [Server thread/INFO]: [ChunkHolderManager] Saved 150 block chunks, 281 entity chunks, 0 poi chunks in world 'world' in 0.11s
-[22:00:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:00:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[22:00:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[22:00:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[22:00:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[22:00:25] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 26 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[22:00:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:00:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[22:00:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[22:00:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[22:00:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[22:00:25] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[22:00:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:00:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:00:25] [Server thread/INFO]: Flushing Chunk IO
-[22:00:25] [Server thread/INFO]: Closing Thread Pool
-[22:00:25] [Server thread/INFO]: Closing Server
+[19:07:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[19:07:01] [Server thread/INFO]: Default game type: SURVIVAL
+[19:07:01] [Server thread/INFO]: Generating keypair
+[19:07:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:07:01] [Server thread/INFO]: Using epoll channel type
+[19:07:01] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[19:07:01] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[19:07:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:07:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:07:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:07:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:07:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:07:01] [Server thread/INFO]: Preparing level "world"
+[19:07:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:07:02] [Server thread/INFO]: Time elapsed: 391 ms
+[19:07:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:07:02] [Server thread/INFO]: Time elapsed: 92 ms
+[19:07:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:07:02] [Server thread/INFO]: Time elapsed: 84 ms
+[19:07:02] [Server thread/INFO]: Running delayed init tasks
+[19:07:02] [Server thread/INFO]: Done (3.456s)! For help, type "help"
+[19:07:02] [Server thread/INFO]: Timings Reset
+[19:07:34] [User Authenticator #0/INFO]: UUID of player kieff568 is 76a1f384-4dfc-38c5-b324-38480c4f7d72
+[19:07:35] [Server thread/INFO]: kieff568 joined the game
+[19:07:35] [Server thread/INFO]: kieff568[/127.159.79.205:55381] logged in with entity id 173 at ([world]223.02717451997574, 64.0, -507.4441246240663)
+[19:10:40] [Server thread/INFO]: kieff568 lost connection: Disconnected
+[19:10:40] [Server thread/INFO]: kieff568 left the game
